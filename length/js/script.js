@@ -1,7 +1,7 @@
 const text = document.querySelector('#text');
 const count = document.querySelector('#count');
 
-//イベント: keyup：キーが離されたとき
+//イベント keyup：キーが離されたとき
 text.addEventListener('keyup', () => {
     count.textContent = text.value.length;
 
